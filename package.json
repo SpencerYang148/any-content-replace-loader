@@ -1,5 +1,5 @@
 {
-  "name": "content-replace-loader",
+  "name": "any-content-replace-loader",
   "version": "0.0.1",
   "description": "webpack loader: Replace content during compilation",
   "main": "dist/index.js",
