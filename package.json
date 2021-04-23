@@ -1,0 +1,30 @@
+{
+  "name": "content-replace-loader",
+  "version": "0.0.1",
+  "description": "webpack loader: Replace content during compilation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -P tsconfig.json",
+    "watch": "tsc -P tsconfig.json -w",
+    "test": "yarn run build && tsc ./test/index.ts --lib es6,es7,dom --outDir ./testDist && node ./testDist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/webpack": "5.28.0",
+    "enhanced-resolve": "5.8.0",
+    "ts-loader": "9.1.0",
+    "typescript": "4.2.4"
+  },
+  "author": "SpencerYang",
+  "license": "ISC",
+  "keywords": [
+    "webpack",
+    "loader",
+    "content replace",
+    "content",
+    "replace",
+    "string",
+    "compile",
+    "compilation"
+  ]
+}
