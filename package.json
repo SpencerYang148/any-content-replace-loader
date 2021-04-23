@@ -1,6 +1,6 @@
 {
   "name": "any-content-replace-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "webpack loader: Replace content during compilation",
   "main": "dist/index.js",
   "scripts": {
@@ -18,7 +18,12 @@
     "typescript": "4.2.4"
   },
   "author": "SpencerYang",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpencerYang148/any-content-replace-loader.git"
+  },
+  "homepage": "https://github.com/SpencerYang148/any-content-replace-loader",
+  "license": "MIT",
   "keywords": [
     "webpack",
     "loader",
