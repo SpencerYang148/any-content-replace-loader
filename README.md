@@ -1,6 +1,25 @@
 # any-content-replace-loader
 ## webpack loader: Replace content during compilation
 
+### example
+#### replace abc with def by this loader
+
+##### before:
+```js
+ // a.ts
+ console.log('a.ts: abc');
+ // b.ts
+ console.log('b.ts: abc');
+```
+##### after:
+```js
+ // a.ts
+ console.log('a.ts: def');
+ // b.ts
+ console.log('b.ts: def');
+```
+
+
 ### Demo
 ```js
 module: {
