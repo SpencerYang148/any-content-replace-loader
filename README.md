@@ -28,7 +28,7 @@ module: {
       test: /\.js$/,
       use: [
         {
-          loader: 'content-replace-loader',
+          loader: 'any-content-replace-loader',
           options: {
             search: /abc/gi,
             replace: 'def',
@@ -49,7 +49,7 @@ module: {
       use: [
         'ts-loader',
         {
-          loader: 'content-replace-loader',
+          loader: 'any-content-replace-loader',
           options: {
             search: /abc/gi,
             replace: 'def',

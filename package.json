@@ -1,6 +1,6 @@
 {
   "name": "any-content-replace-loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "webpack loader: Replace content during compilation",
   "main": "dist/index.js",
   "scripts": {
